@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.red {
+    color: red;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    max-width: 1500px;
+    background-color:azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.navbar {
+    margin-top: 2rem;
+    padding: 1rem 2.5rem;
+    width: 80%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.navbar .head {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    padding-right: 2rem;
+    transition: all .5s ease-in-out;
+}
+nav ul li:hover {
+    transform: translateY(-.5rem) scale(1.2);
+}
+
+.details {
+    padding-top: 6rem;
+    padding-inline: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+.description {
+    max-width: 29rem
+}
+.title {
+    font-size: 3rem;
+}
+
+.buttons {
+    padding-top: .7rem;
+    display: flex;
+    gap: 1.5rem;
+}
+button {
+    background: red;   
+    border: none;
+    padding: .6rem 1rem;
+    border-radius: .5rem;   
+    cursor: pointer;
+}
+button a {
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.socials {
+    padding-top: .7rem;
+}
+.icons {
+    list-style: none;
+    display: flex;
+    gap: 1.3rem;
+}
+
+.fa {
+    font-size: 2rem;
+    padding: .4rem .5rem;
+    border: 2px solid black;
+    border-radius: .3rem;
+}
